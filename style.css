@@ -1,0 +1,100 @@
+* { 
+	margin:0;padding:0; 
+	font-family: 'Nunito', sans-serif;
+}
+.fas .fa-arrows-alt-v{
+	font-size:30px;
+}
+body{
+	background-color:beige;
+}
+#weatherContainer{
+	background-color:lightblue;
+	text-align:center;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+form {
+     display:inline;
+     margin:0px;
+     padding:0px;
+}
+.button{
+	padding:2px 3px;
+}
+#to-do-list-container {
+	margin-top:20px;
+	/*padding-top:5px;*/
+	/*padding-bottom:5px;*/
+	background-color:lightblue;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-box-shadow: 0px 10px 20px -10px #777;
+	-moz-box-shadow: 0px 10px 20px -10px #777;
+	box-shadow: 0px 10px 20px -10px #777;
+
+}
+.header-section{
+	margin-left:12px;
+	margin-right:12px;
+}
+.to-do-title{
+	float:left;
+	margin:10px;
+}
+.plus {
+	float:right;
+	margin-top:14px;
+	margin-right:5px;
+}
+.clear-float{
+	clear:both;
+}
+
+#enter-task-box {
+	width:99.4%;
+	padding-top: 5px;
+	padding-bottom:5px;
+	text-align:center;
+	font-size:20px;
+}
+.hide {
+	display:none;
+}
+
+.crossed-out {
+	color: darkgray;
+	text-decoration: line-through;
+}
+.inline-field input,
+.inline-field li {
+
+	margin-top:5px;
+	display: inline-block;
+	margin-bottom: 5px; 
+	vertical-align: middle; 
+	/*https://teamtreehouse.com/community/why-is-the-label-element-below-my-checkbox*/
+}
+
+.inline-field li {
+	padding-left:5px;
+	font-size:20px;
+}
+.inline-field {
+	background-color:white;
+	border:1px solid lightgray;
+}
+.inline-field:hover {
+	background-color:lightgray;
+}
+ul {
+	list-style-type:none;
+	padding-left:0;
+}
+.checkbox{
+	margin:10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+</head>
+<body>
+	<div id = "weatherContainer">
+		Today's weather in <span id="city"></span>: <span id="temp"></span>&#8457 <span id="vis"></span>. Feels like <span id="app_temp"></span>&#8457.
+		<form action="/action_page.php" id = "weatherDropDown">
+			<select name="cities" id="cities">
+				<option value="LosAngeles,CA">Los Angeles</option>
+				<option value="Beijing,CN">Beijing</option>
+				<option value="Madrid,ES">Madrid</option>
+				<option value="Paris,FR">Paris</option>
+			</select>
+			<button type="submit" class="button">Go</button>
+		</form>
+	</div>
+	<div id="to-do-list-container">
+		<div class="header-section">
+			<h1 class="to-do-title">To-Do List</h1>
+			<span style="font-size:25px;" class="plus"><span class="fas fa-pencil-alt"></span></span>
+			<div class="clear-float"></div>
+		</div>
+
+		<input type="text" name="" id="enter-task-box" placeholder="Add to-do item here">
+		<ul id="tasks">
+			<div class="inline-field"><input type="checkbox" class="checkbox" name="" value=""><li class="task">Make Breakfast</li></div>
+			<div class="inline-field"><input type="checkbox" class="checkbox" name="" value=""><li class="task">Go To School</li></div>
+			<div class="inline-field"><input type="checkbox" class="checkbox" name="" value=""><li class="task">Do Homework</li></div>
+		</ul>
+	</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="toDoList.js"></script>
+</body>
+</html>
